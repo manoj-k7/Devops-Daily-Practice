@@ -1,0 +1,1000 @@
+  137  top
+  138  tee
+  139  cat log1 | tee 
+  140  cat log1 | tee log2
+  141  cat log2
+  142  ls
+  143  uniq
+  144  date
+  145  uname
+  146  uname -a
+  147  uname -v
+  148  who
+  149  whoami
+  150  hostname-I
+  151  hostname -I
+  152  mount
+  153  load average
+  154  Load average
+  155  uptime
+  156  vi reverse.sh
+  157  chmod 777 reverse.sh 
+  158  sh reverse.sh 
+  159  ls
+  160  cat alert
+  161  cat Alert 
+  162  sh reverse.sh Alert 
+  163  ls
+  164  rm '~'
+  165  ls
+  166  cat rev-log 
+  167  ls
+  168  vi Aler
+  169  vi Alert
+  170  vi log2
+  171  vi reverse.sh 
+  172  sh reverse.sh 
+  173  sh reverse.sh log2
+  174  vi reverse.sh 
+  175  sh reverse.sh 
+  176  vi reverse.sh 
+  177  sh reverse.sh 
+  178  vi reverse.sh 
+  179  sh reverse.sh 
+  180  vi reverse.sh 
+  181  sh reverse.sh 
+  182  vi reverse.sh 
+  183  sh reverse.sh 
+  184  vi reverse.sh 
+  185  sh reverse.sh 
+  186  vi reverse.sh 
+  187  sh reverse.sh 
+  188  vi reverse.sh 
+  189  sh reverse.sh 
+  190  vi reverse.sh 
+  191  sh reverse.sh 
+  192  vi reverse.sh 
+  193  sh reverse.sh 
+  194  vi reverse.sh 
+  195  ls
+  196  $ egrep '(([0-9]|[0-9]{2}|1[0-9]{2}|2[0-4][0-9]|25[0-5])\.){3}([0-9]|[0-9]{2}|1[0-9]{2}|2[0-4][0-9]|25[0-5])' log1
+  197  cat log1
+  198  cat log2
+  199  cat alert
+  200  cat Alert
+  201  $ egrep '(([0-9]|[0-9]{2}|1[0-9]{2}|2[0-4][0-9]|25[0-5])\.){3}([0-9]|[0-9]{2}|1[0-9]{2}|2[0-4][0-9]|25[0-5])' Alert
+  202  egrep '(([0-9]|[0-9]{2}|1[0-9]{2}|2[0-4][0-9]|25[0-5])\.){3}([0-9]|[0-9]{2}|1[0-9]{2}|2[0-4][0-9]|25[0-5])' Alert9;5u
+  203  vi ip.sh
+  204  sh ip.sh
+  205  sh ip.sh
+  206  vi ip.sh
+  207  sh ip.sh
+  208  vi ip.sh
+  209  sh ip.sh
+  210  git clone C:\Users\info\Desktop\Git repo
+  211  git init
+  212  sudo apt update
+  213  systemctl apt install git
+  214  systemctl apt-get install git
+  215  systemctl install git
+  216  systemctl apt install git
+  217  ls -a
+  218  git clone C:\Users\info\Desktop\Git repo
+  219  mkdir dir8 &
+  220  ls
+  221  sh reverse.sh 
+  222  ls
+  223  cat ip.sh 
+  224  vi ip.sh 
+  225  sh ip.sh 
+  226  vi ip.sh 
+  227  sh ip.sh 
+  228  vi ip.sh 
+  229  ls
+  230  vi ip.sh
+  231  sh ip.sh
+  232  vi ip.sh
+  233  sh ip.sh
+  234  vi ip.sh
+  235  sh ip.sh
+  236  vi ip.sh
+  237  ls
+  238  vi ip.sh
+  239  sh ip.sh 
+  240  vi ip.sh
+  241  sh ip.sh 
+  242  vi ip.sh
+  243  sh ip.sh 
+  244  vi ip.sh
+  245  sh ip.sh 
+  246  cat Alert
+  247  sh ip.sh 
+  248  cat Alert
+  249  vi ip.sh
+  250  sh ip.sh 
+  251  ls
+  252  vi test
+  253  Grep -v “Linux” test
+  254  grep -v “Linux” test
+  255  grep -v “linux” test
+  256  ls
+  257  grep "^l" test
+  258  curl
+  259  man curl
+  260  vi file.txt
+  261  rev file.txt > manu
+  262  echo $manu
+  263  rev file.txt > manu
+  264  rev file.txt > log3
+  265  cat log3
+  266  ls
+  267  vi reverse.sh 
+  268  sh reverse.sh 
+  269  vi reverse.sh 
+  270  sh reverse.sh 
+  271  vi reverse.sh 
+  272  sh reverse.sh 
+  273  chmod 442 reverse.sh 
+  274  ls
+  275  vi ip.sh
+  276  sh ip.sh 
+  277  Users
+  278  cat /etc/passwd
+  279  ls
+  280  ls -a
+  281  ls
+  282  mkdir temp
+  283  ls
+  284  cd temp
+  285  ls
+  286  pwd
+  287  touch f1 f2
+  288  vi f1
+  289  cat nu f1
+  290  cat n f1
+  291  cat -n f1
+  292  man cat
+  293  history
+  294  vi f1
+  295  ls
+  296  cat f1
+  297  mv f1 f2
+  298  cat f2
+  299  cp f1 f2
+  300  mv f1 f2
+  301  f2
+  302  cat f2
+  303  apt update
+  304  sudo apt update
+  305  ls
+  306  top
+  307  top | awk -F  NR==2 NR==3 '{print($2)}' > t1
+  308  top | awk -F  NR==2 NR==3 '{print(NF)}' > t1
+  309  top | awk -F  NR==2 NR==3 '{print(NF-1)}' > t1
+  310  top | awk -F  NR==2 NR==3 '{print($NF)}' > t1
+  311  LS
+  312  ls
+  313  cat t2
+  314  cat t1
+  315  mkdir c-program
+  316  cd c-program/
+  317  ls
+  318  vi main.c
+  319  vi fact.c
+  320  vi big3.c
+  321  vi rev.c
+  322  vi makefile
+  323  make makefile
+  324  sudo systemctl install gcc
+  325  sudo systemctl install make
+  326  sudo systemctl instal make
+  327  sudo apt install gcc
+  328  sudo apt install make
+  329  ./makefile make\
+  330  ./makefile make
+  331  chmod 700  makefile 
+  332  ./makefile make
+  333  ls
+  334  vi makefile
+  335  ./makefile make
+  336  vi makefile
+  337  cd ..
+  338  ls
+  339  mkdir scripts
+  340  ls
+  341  mv restart.sh scripts/
+  342  mv reverse.sh alert.sh del.sh ip.sh math.sh grt.sh scripts/
+  343  ls
+  344  cat t1
+  345  rm t1
+  346  ls -lrt
+  347  cd scripts/
+  348  ls
+  349  Find . -type f -name “test”
+  350  find . -type f -name “test”
+  351  ls
+  352  find . -type f -name “log3”
+  353  find . -type f -empty
+  354  sudo find . -type f -empty
+  355  cd git/
+  356  vi migrate.sh 
+  357  sh migrate.sh 
+  358  ls
+  359  vi migrate.sh 
+  360  sh migrate.sh 
+  361  vi migrate.sh 
+  362  sh migrate.sh 
+  363  rm -rf test-repo/
+  364  ls
+  365  sh migrate.sh 
+  366  ls
+  367  cd test-repo/
+  368  ls
+  369  rm README.md 
+  370  ls
+  371  cd ..
+  372  vi migrate.sh 
+  373  rm -rf test-repo/
+  374  sh migrate.sh 
+  375  ls
+  376  vi migrate.sh 
+  377  pwd
+  378  vi migrate.sh 
+  379  sh migrate.sh 
+  380  vi migrate.sh 
+  381  git branch -a
+  382  ls
+  383  cd temp-dir/
+  384  git branch -a
+  385  vi migrate.sh 
+  386  pwd
+  387  cd ..
+  388  vi migrate.sh 
+  389  ls
+  390  rm -rf temp-dir/
+  391  sh migrate.sh 
+  392  vi migrate.sh 
+  393  ls
+  394  sh migrate.sh 
+  395  vi migrate.sh 
+  396  ls
+  397  rm -rf test-repo/
+  398  sh migrate.sh 
+  399  ls
+  400  vi migrate.sh 
+  401  sh migrate.sh 
+  402  vi migrate.sh 
+  403  rm -rf test-repo/
+  404  ls
+  405  rm -rf test-repo/
+  406  ls
+  407  rm -rf test_repo/
+  408  ls
+  409  vi migrate.sh 
+  410  sh migrate.sh 
+  411  git log
+  412  git branch 
+  413  cd test_repo/
+  414  git log
+  415  vi migrate.sh 
+  416  ls
+  417  vi migrate.sh 
+  418  cd .. && vi migrate.sh 
+  419  cd test_repo/ && vi migrate.sh 
+  420  sh migrate.sh 
+  421  git log
+  422  git tag release1
+  423  git log
+  424  vi migrate.sh 
+  425  sh migrate.sh 
+  426  vi migrate.sh 
+  427  sh migrate.sh 
+  428  vi migrate.sh 
+  429  sh migrate.sh 
+  430  vi migrate.sh 
+  431  sh migrate.sh 
+  432  vi migrate.sh 
+  433  sh migrate.sh 
+  434  ls
+  435  vi migrate.sh 
+  436  ls
+  437  cd git/
+  438  ls
+  439  cd test_repo/
+  440  ls
+  441  rm -rf test_repo/
+  442  rm New\ Text\ Document.txt 
+  443  rm README.md 
+  444  ls
+  445  sh migrate.sh 
+  446  ls
+  447  rm f1 f2
+  448  ls
+  449  rm test_repo/
+  450  rm -rf test_repo/
+  451  vi migrate.sh 
+  452  cd ..
+  453  cd -
+  454  cd ../..
+  455  cd test_repo/
+  456  cd git/test_repo/
+  457  ls
+  458  vi migrate.sh 
+  459  rm -rf test_repo/
+  460  sh migrate.sh 
+  461  ls
+  462  mkdir maven
+  463  cd maven/
+  464  git --version
+  465  maven --version
+  466  sudo apt install maven
+  467  maven --version
+  468  ls
+  469  curl -fsSL https://pkg.jenkins.io/debian-stable/jenkins.io.key | sudo tee   /usr/share/keyrings/jenkins-keyring.asc > /dev/null
+  470  echo deb [signed-by=/usr/share/keyrings/jenkins-keyring.asc]   https://pkg.jenkins.io/debian-stable binary/ | sudo tee   /etc/apt/sources.list.d/jenkins.list > /dev/null
+  471  sudo apt-get update
+  472  sudo apt install openjdk-11-jre -y
+  473  ls
+  474  cd maven/
+  475  ls
+  476  ls
+  477  cd maven/
+  478  sudo apt install java
+  479  sudo apt install java -y
+  480  cd ..
+  481  sudo apt install java -y
+  482  ps -ef |grep "java"
+  483  java --version
+  484  systemctl status java
+  485  sudo systemctl status java
+  486  pwd
+  487  java --version
+  488  sudo wget https://www-us.apache.org/dist/maven/maven-3/3.8.5/binaries/apache-maven-3.8.5-bin.tar.gz
+  489  sudo wget https://dlcdn.apache.org/maven/maven-3/3.8.6/binaries/apache-maven-3.8.6-bin.tar.gz
+  490  maven --version
+  491  sudo tar xzf apache-maven-3.8.6-bin.tar.gz
+  492  sudo ln -s apache-maven-3.8.6 maven
+  493  sudo vi /etc/profile.d/maven.sh
+  494  source /etc/profile.d/maven.sh
+  495  maven --version
+  496  maven -version
+  497  mvn --version
+  498  cd maven
+  499  ls
+  500  mvn --version
+  501  cd ..
+  502  mkdir mavenfiles
+  503  cd mavenfiles/
+  504  git clone https://github.com/niwasawa/java-hello-world-with-maven.git 
+  505  ls
+  506  cd java-hello-world-with-maven/
+  507  ls
+  508  cd src/
+  509  ls
+  510  cd main/
+  511  ls
+  512  cd java/
+  513  ls
+  514  cd info/
+  515  ls
+  516  cd maigo/
+  517  ls
+  518  cd mavenfiles/
+  519  ls
+  520  mvn compile
+  521  ls
+  522  cd ..
+  523  ls
+  524  cd mavenfiles/
+  525  ls
+  526  git clone https://github.com/narayanankesavan/java-hello-world-with-maven-master.git
+  527  ls
+  528  cd java-hello-world-with-maven-master/
+  529  mvn compile
+  530  ls
+  531  cd target/
+  532  ls
+  533  cd classes/
+  534  ls
+  535  cd hello/
+  536  ls
+  537  cd ../..
+  538  cd ..
+  539  mvn install
+  540  ls
+  541  cd target/
+  542  ls
+  543  cd ..
+  544  apache --version 
+  545  cd ..
+  546  apache --version 
+  547  cd /
+  548  apache --version 
+  549  sudo systemctl status httpd
+  550  sudo systemctl status apache
+  551  sudo apt install apache2
+  552  sudo systemctl status apache2
+  553  cd /var/www/html
+  554  ls
+  555  vi index.html 
+  556  cd /home/ubuntu/mavenfiles/
+  557  ls
+  558  cd java-hello-world-with-maven-master/
+  559  la
+  560  cd target/
+  561  ls
+  562  cp original-jb-hello-world-maven-0.2.0.jar /var/www/html
+  563  sudo cp original-jb-hello-world-maven-0.2.0.jar /var/www/html
+  564  sudo cp jb-hello-world-maven-0.2.0.jar /var/www/html
+  565  ls
+  566  ls
+  567  cd -
+  568  cd ~
+  569  ls
+  570  cd jb-hello-world-maven-0.2.0.jar /var/www/html
+  571  sudo apt-get install jenkins
+  572  sudo apt-get enable jenkins
+  573  sudo systemctl enable jenkins
+  574  sudo systemctl start jenkins
+  575  sudo systemctl status jenkins
+  576  ps -ef | grep "jenkins"
+  577  jenkin -version
+  578  jenkins --version
+  579  jenkin --version
+  580  cat /var/lib/jenkins/secrets/initialAdminPassword
+  581  sudo cat /var/lib/jenkins/secrets/initialAdminPassword
+  582  ls
+  583  cd scripts/
+  584  ls
+  585  vi add.sh
+  586  chmod 600 add.sh 
+  587  ./add.sh 6 7
+  588  chmod 700 add.sh 
+  589  ./add.sh 6 7
+  590  vi add.sh
+  591  ls
+  592  cat math.sh 
+  593  vi add.sh
+  594  ./add.sh 6 7
+  595  sh add.sh 6 7
+  596  vi add.sh
+  597  sh add.sh 6 7
+  598  vi add.sh
+  599  sh add.sh 6 7
+  600  vi add.sh
+  601  sh add.sh 6 7
+  602  vi add.sh
+  603  sh add.sh 6 7
+  604  vi add.sh
+  605  sh add.sh 6 7 7
+  606  vi add.sh
+  607  cd scripts/
+  608  vi add.sh 
+  609  sh add.sh 6 7 7
+  610  vi add.sh 
+  611  sh add.sh 6 7 7
+  612  chmod 700 add.sh 
+  613  vi add.sh 
+  614  sh add.sh 6 7 7
+  615  chmod 777 add.sh 
+  616  sh add.sh 6 7 7
+  617  vi add.sh 
+  618  sh add.sh 6 7 7
+  619  vi add.sh 
+  620  sh add.sh 6 7 7
+  621  vi add.sh 
+  622  ssh jenkins@65.0.96.114
+  623  .ssh
+  624  cd .ssh
+  625  ls
+  626  cat id_rsa.pub 
+  627  cd ..
+  628  ssh jenkins@65.0.96.114
+  629  sudo cat .ssh/id_rsa.pub 
+  630  sudo cat .ssh/id_rsa
+  631  ssh jenkins@65.0.96.114
+  632  ls
+  633  rm -rf maven
+  634  cd scripts/
+  635  ls
+  636  vi add.sh 
+  637  cd scripts/
+  638  vi add.sh 
+  639  sh add.sh 6 7 8
+  640  vi add.sh 
+  641  sh add.sh 6 7 8
+  642  vi add.sh 
+  643  sh add.sh 6 7 8
+  644  vi add.sh 
+  645  chmod 777 add.sh 
+  646  vi add.sh 
+  647  sh add.sh 6 7 8
+  648  cd scripts/
+  649  vi add.sh 
+  650  sh add.sh 5 6 7
+  651  vi add.sh 
+  652  sh add.sh 5 6 7
+  653  vi add.sh 
+  654  sh add.sh 5 6 7
+  655  vi add.sh 
+  656  sh add.sh 5 6 7
+  657  vi add.sh 
+  658  sh add.sh 5 6 7
+  659  vi add.sh 
+  660  sh add.sh 5 6 7
+  661  vi add.sh 
+  662  sh add.sh 5 6 9
+  663  vi add.sh 
+  664  sh add.sh 5 6 9
+  665  vi add.sh 
+  666  ls
+  667  cd c-program/
+  668  ls
+  669  vi ABC.exe 
+  670  make 
+  671  ./ABC.exe 
+  672  cd ..
+  673  cd c-program/
+  674  ls
+  675  git push https://github.com/manoj-k7/slave2-C-project.git
+  676  sudo yum update
+  677  sudo apt update
+  678  history
+  679  hisory
+  680  history
+  681  sudo apt update
+  682  apt-get install libc6
+  683  sudo apt install libc6
+  684  sudo apt update
+  685  cd scripts/
+  686  vi date.sh
+  687  chmod 762 date.sh 
+  688  sh date.sh 
+  689  vi date.sh
+  690  nohup sh date.sh 
+  691  vi date.sh
+  692  $ seq 1 5 | xargs -I{} date
+  693  seq 1 5 | xargs -I{} date
+  694  seq 1 5 | xargs -I{} date | sleep 5
+  695  seq 1 5 |sleep 5 | xargs -I{} date
+  696  seq 1 5 | sleep 5 | xargs -I{} date
+  697  seq 1 5 && sleep 5 | xargs -I{} date
+  698  seq 1 5 && -I{} date  | xargs sleep 5
+  699  sudo apt install wget
+  700  seq 1 5 | xargs -I{} sh -c "date && sleep 1"
+  701  vi date.sh
+  702  sh date.sh 
+  703  nohup sh date.sh 
+  704  cat nohup.out
+  705  sudo apt remove wget
+  706  wget --version
+  707  sudo apt install wget &
+  708  sudo apt install tree&
+  709  cd scripts/
+  710  vi start-stop.sh
+  711  chmod 764 start-stop.sh 
+  712  sh start-stop.sh 
+  713  sh start-stop.sh  Start
+  714  vi start-stop.sh
+  715  sh start-stop.sh
+  716  vi start-stop.sh
+  717  sh start-stop.sh
+  718  vi start-stop.sh
+  719  sh start-stop.sh
+  720  vi start-stop.sh 
+  721  ls
+  722  cat test
+  723  cat touch 
+  724  cat file.txt 
+  725  cd git/
+  726  ls
+  727  ls -a
+  728  vi manu
+  729  git status
+  730  git add *
+  731  git status 
+  732  git commit -m "adding new files "
+  733  git push
+  734  git push https://github.com/manoj-k7/migrate-repo.git
+  735  ls -a
+  736  cd scripts/
+  737  ls
+  738  git push https://github.com/manoj-k7/test-repo.git
+  739  git branch
+  740  git push https://github.com/manoj-k7/test-repo.git master
+  741  ls -a
+  742  cd ..
+  743  git push scripts https://github.com/manoj-k7/test-repo.git
+  744  find . -type f test
+  745  find . -type f -name  test
+  746  find . -type f +mtime +3
+  747  find . -type f +mtime +15
+  748  find . -type f -mtime +15
+  749  find . -type f -mmin +15
+  750  tail -f test
+  751  top test
+  752  df -h
+  753  df -h | awk -F "" '{print(NF-1)}'
+  754  vi test2
+  755  cat test2
+  756  cat nu test2
+  757  cat num test2
+  758  ls -lrt test2\
+  759  ls -lrt test2
+  760  chmod 000 test2
+  761  ls -lrt test2
+  762  chmod U+a test2
+  763  chmod u+a test2
+  764  chmod u+rwx test2
+  765  ls -lrt test2
+  766  grep -e unix -e windows test2
+  767  grep -v "expensive" test2
+  768  grep "^w" test2
+  769  grep "s$" test2
+  770  grep "^w .*s$" test2
+  771  grep "^w.*s$" test2
+  772  grep -c windows test2
+  773  ls -lrt | grep -i ^d
+  774  ls -lrt | grep -i ^t
+  775  cat /etc/groups
+  776  cat /etc/passwd
+  777  whoami
+  778  who
+  779  which
+  780  which ubuntu
+  781  which maven
+  782  find . -name test2
+  783  find . -type -name test2
+  784  find -r -name test
+  785  find . -r -name test
+  786  find / -name test
+  787  tail -f test2
+  788  printenv
+  789  uname-v
+  790  uname_v
+  791  Uname_v
+  792  Uname-a
+  793  uname-a
+  794  uname_a
+  795  netstat
+  796  netstat -a
+  797  netstat -lt
+  798  netstat -lu
+  799  netstat -l
+  800  netstat -a
+  801  cronetab -l
+  802  cronetab -e
+  803  crontab -e
+  804  free
+  805  mem-info
+  806  ping localhost
+  807  ping 127.0.0.1:8080
+  808  ping 127.0.0.1:80
+  809  ping 127.0.0.1:443
+  810  ping 127.0.0.1:22
+  811  telnet
+  812  ls
+  813  cd scripts
+  814  ls -a
+  815  git init
+  816  git push https://github.com/manoj-k7/my-scripts.git
+  817  cd ..
+  818  git clone https://github.com/manoj-k7/my-scripts.git
+  819  ls
+  820  cd my-scripts/
+  821  cp /home/ec2-user/scripts/ /home/ec2-user/.
+  822  cp /home/ec2-user/scripts /home/ec2-user/.
+  823  cp /home/ec2-user/scripts /home/ec2-user/my-scripts/.
+  824  mv /home/ec2-user/scripts /home/ec2-user/my-scripts/.
+  825  cp /home/ubuntu/scripts /home/ubuntu/.
+  826  cp -r /home/ubuntu/scripts /home/ubuntu/.
+  827  ls
+  828  cp -r /home/ubuntu/scripts /home/ubuntu/scripts1
+  829  ls
+  830  cp -r /home/ubuntu/scripts /home/ubuntu/my-scripts
+  831  ls
+  832  ls -a
+  833  git push https://github.com/manoj-k7/my-scripts.git
+  834  git add *
+  835  git status
+  836  git commit -m "added scipts"
+  837  git add scripts/
+  838  git add scripts
+  839  git status
+  840  git add *
+  841  error: 'scripts/' does not have a commit checked out
+  842  fatal: adding files failed
+  843  ls -a
+  844  rm -rf sub/.git
+  845  ls -a
+  846  rm -rf sub/.git
+  847  ls -a
+  848  rm -rf .git
+  849  ls -a
+  850  cd ..
+  851  ls
+  852  rm -rf my-scripts/
+  853  rm -rf scripts1/
+  854  ls -a
+  855  git clone https://github.com/manoj-k7/my-scripts.git
+  856  ls
+  857  cd my-scripts/
+  858  ls
+  859  cp -r /home/ubuntu/scripts .
+  860  ls
+  861  git add scripts
+  862  git add .
+  863  cd ..\
+  864  cd ..
+  865  cd git/
+  866  ls
+  867  git clone https://github.com/manoj-k7/my-scripts.git
+  868  ls
+  869  cd my-scripts/
+  870  ls -a
+  871  cp -r /home/ubuntu/scripts .
+  872  git add *
+  873  git status
+  874  git commit -m "added new files"
+  875  git add scripts/
+  876  cd ..
+  877  git add .
+  878  cd ..
+  879  git status
+  880  ls -a
+  881  cd git/
+  882  ls -a
+  883  cd test_repo/
+  884  ls
+  885  cd ..
+  886  rm -rf test_repo/
+  887  git add *
+  888  git commit -m "added scripts"
+  889  touch t1
+  890  git add *
+  891  rm -rf my-scripts/
+  892  git add *
+  893  git commit -m "added new files"
+  894  cp -r /home/ubuntu/scripts/ .
+  895  git add *
+  896  cd ..
+  897  ls
+  898  cd scripts/
+  899  ls
+  900  ls -a
+  901  rm -rf .git 
+  902  ls -a
+  903  cd ..
+  904  cd git/
+  905  ls
+  906  git status
+  907  git add *
+  908  ls
+  909  cd scripts/
+  910  ls -a
+  911  rm -rf sub/.git
+  912  ls -a
+  913  rm -rf .git
+  914  ls -a
+  915  cd ..
+  916  git add *
+  917  git commit -m "added files"
+  918  git push https://github.com/manoj-k7/my-scripts.git
+  919  ls
+  920  cd ..
+  921  ls
+  922  cd git/
+  923  ls
+  924  cat manu 
+  925  git branch
+  926  git touch t2 t1 t3
+  927  touch t2 t1 t3
+  928  git status
+  929  git add *
+  930  git commit -m " added new files "
+  931  git log
+  932  git config --global user:name "Manu"
+  933  git config --global user.name "Manu"
+  934  git config --global user.email "manoj.pk6695@gmail.com"
+  935  git checkout -b manoj
+  936  git branch
+  937  ls
+  938  rm migrate.sh 
+  939  git tag tag1
+  940  ls
+  941  git log
+  942  touch new1
+  943  git log
+  944  git add new1
+  945  git log
+  946  git commit  -m "added New1"
+  947  git log
+  948  git reset --soft f901908f16cd1db8a32bc1b5af49e28a17e5413a 
+  949  git log
+  950  git reset --mixed f901908f16cd1db8a32bc1b5af49e28a17e5413a 
+  951  git log
+  952  git status
+  953  history
+  954  mkdir dailytask
+  955  cd dailytask/
+  956  vi 30th
+  957  cd ..
+  958  ls
+  959  cd dailytask/
+  960  ls
+  961  git add .
+  962  git commit -m " added history"
+  963  git push https://github.com/manoj-k7/Dailypractice-WIP.git
+  964  vi .gitignore
+  965  cd git/
+  966  ls
+  967  cd dailytask/
+  968  ls
+  969  vi .gitignore
+  970  ls -a
+  971  rm -rf .gitignore.swp 
+  972  vi .gitignore
+  973  git push
+  974  git add *
+  975  git commit -m " added gitignore file"
+  976  git commit -m " added gitignore file "
+  977  git status
+  978  git commit -m "added gitignore file"
+  979  git add .
+  980  git commit -m "fiiles added"
+  981  ls
+  982  ls -a
+  983  git push https://github.com/manoj-k7/Dailypractice-WIP.git
+  984  git branch
+  985  cd git/
+  986  git branch
+  987  git tag -d tag1
+  988  git log
+  989  git diff 8c3df175cadabf4d6296eb4230a8bab6b2bf2b48
+  990  git log
+  991  mem-info
+  992  git checkout naveen
+  993  git checkout -b naveen
+  994  touch test
+  995  git add test\
+  996  git add test
+  997  git commit -m "added test"
+  998  ls
+  999  cd practice/
+ 1000  ls
+ 1001  cd ..
+ 1002  cd git/
+ 1003  ls
+ 1004  rm -rf scripts t1 t2 t3 test 
+ 1005  ls
+ 1006  rm -rf manu new1 
+ 1007  touch t1 t3 t3
+ 1008  ls
+ 1009  git log
+ 1010  cd g
+ 1011  cd git/
+ 1012  ls
+ 1013  cd Devops-Daily-Practice/
+ 1014  ls
+ 1015  cd dailytask/
+ 1016  ls
+ 1017  vi 30th 
+ 1018  ls
+ 1019  history | grep -e "date"
+ 1020  date
+ 1021  history "%F"
+ 1022  history " %F "
+ 1023  cd practice/
+ 1024  ls
+ 1025  ls -lrt | awk -F " " '{print $(NF) }' 
+ 1026  ls -lrt | cut -d " " '{print $(NF) }' 
+ 1027  ls -lrt | cut -d " " 'f1'  
+ 1028  ls -lrt | cut -d  'f1' 
+ 1029  ls
+ 1030  grep -v "development" test2
+ 1031  top
+ 1032  htop
+ 1033  uptime
+ 1034  uname 
+ 1035  uname -a
+ 1036  uname -v
+ 1037  which Linux
+ 1038  cd ..
+ 1039  ls
+ 1040  netstat -t
+ 1041  netstat -l
+ 1042  netstat -u
+ 1043  netstat -a
+ 1044  netstat -al
+ 1045  netstat -lt
+ 1046  netstat -tulp
+ 1047  localhost
+ 1048  ping localhost
+ 1049  cat /etc/hosts
+ 1050  ln -s pwd sftlnk2
+ 1051  ls
+ 1052  cat sftlnk2 
+ 1053  hi hello >> sftlnk2 
+ 1054  cat sftlnk2 
+ 1055  hostname
+ 1056  hostname -i
+ 1057  hostname -I
+ 1058  find . -type -perm 0777
+ 1059  find . -name -perm 0777
+ 1060  find . -type f -perm 0777
+ 1061  find . -type f -perm 066
+ 1062  find . -type f -perm 0666
+ 1063  find . -type f -perm 0664
+ 1064  find . -type f +mmin +60
+ 1065  find . -type f -mmin +60
+ 1066  find . -type f -mmin -60
+ 1067  find . -type f -mtime -15
+ 1068  find . -type f -empty
+ 1069  find . -type f -non-empty
+ 1070  find . -type f -not-empty
+ 1071  find . -type f -not -empty
+ 1072  mem-infp
+ 1073  mem-info
+ 1074  /temp
+ 1075  cd /temp
+ 1076  \
+ 1077  ls
+ 1078  sed '4p' manoj
+ 1079  sed '4p' manoj | awk -F " " '{ print $(NF) }'
+ 1080  ls
+ 1081  ls -a
+ 1082  sed '4p' manoj | awk -F " " '{ print $(NF) }' | uniq
+ 1083  cat manoj
+ 1084  grep -v "ubuntu" manoj
+ 1085  wc manoj
+ 1086  wcl manoj
+ 1087  wc manoj
+ 1088  sed '4p' manoj | tail -2
+ 1089  more
+ 1090  less
+ 1091  more manoj
+ 1092  less manoj
+ 1093  history 
+ 1094  ps -ef
+ 1095  ps -u " ubuntu "
+ 1096  ps -u "ubuntu"
+ 1097  ls -l
+ 1098  chmod 766 manoj
+ 1099  ls -l
+ 1100  chown ubuntu:ABC test
+ 1101  chown manoj:ABC test
+ 1102  userdadd manoj
+ 1103  useradd manoj
+ 1104  sudo useradd manoj
+ 1105  chown manoj:ABC test
+ 1106  sudo su manoj
+ 1107  ls
+ 1108  cd practice/
+ 1109  ls
+ 1110  vi t1
+ 1111  cat t1
+ 1112  grep "Merge" t1
+ 1113  grep -v "Merge"
+ 1114  grep -r "development" *
+ 1115  grep -R "development" *
+ 1116  grep -r "Development" *
+ 1117  grep -r "Linux" *
+ 1118  grep -l "Linux" *
+ 1119  sed 's/Merge/Rebase/g' t1
+ 1120  cat t1
+ 1121  grep "^M" t1
+ 1122  grep "^M$e" t1
+ 1123  grep "^G$t" t1
+ 1124  grep "^h$y" t1
+ 1125  grep "^M$e" t1
+ 1126  ls
+ 1127  cd ..
+ 1128  cd git/
+ 1129  ls
+ 1130  Cd Devops-Daily-Practice/
+ 1131  cd Devops-Daily-Practice/
+ 1132  ls
+ 1133  cd d
+ 1134  cd dailytask/
+ 1135  ls
+ 1136  history > 4th
