@@ -1,0 +1,175 @@
+    1  exit
+    2  newgrp docker
+    3  exit
+    4  history
+    5  sudo apt update
+    6  curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo gpg --dearmor -o /etc/apt/keyrings/docker.gpg
+    7  echo   "deb [arch=$(dpkg --print-architecture) signed-by=/etc/apt/keyrings/docker.gpg] https://download.docker.com/linux/ubuntu \
+    8    $(lsb_release -cs) stable" | sudo tee /etc/apt/sources.list.d/docker.list > /dev/null
+    9  sudo apt-get update
+   10  sudo apt-get install docker-ce docker-ce-cli containerd.io docker-compose-plugin
+   11  sudo docker --version
+   12  sudo systemctl status docker
+   13  docker images
+   14  cd Devops-Daily-Practice/
+   15  ls
+   16  cd dailytask/
+   17  ls
+   18  git add 7th
+   19  git commit -m "added 7th history file"
+   20  git push
+   21  lscpu
+   22  lsmem
+   23  docker info
+   24  docker --version
+   25  ls -a\
+   26  ls -a
+   27  sudo apt install git
+   28  ls -a
+   29  git init
+   30  ls -a
+   31  ls
+   32  docker images
+   33  docker pull ubuntu
+   34  docker images
+   35  docker pull ubuntu:lts
+   36  docker pull ubuntu:latest
+   37  docker images
+   38  docker pull ubuntu:latest
+   39  docker images
+   40  docker pull ubuntu:18.04
+   41  docker images
+   42  git clone https://github.com/manoj-k7/Devops-Daily-Practice.git
+   43  ls
+   44  docker images
+   45  docker rmi 6b7dfa7e8fdb
+   46  docker images
+   47  docker pull ubuntu
+   48  docker images -q
+   49  docker rmi $(docker images -q)
+   50  docker images -q
+   51  docker rmi $(docker images -q)
+   52  docker images
+   53  history
+   54  ls
+   55  git pull ubuntu
+   56  docker pull ubuntu
+   57  docker pull ubuntu:22.04
+   58  docker pull ubuntu:18.04
+   59  docker images
+   60  history > 7th
+   61  ls
+   62  cd Devops-Daily-Practice/
+   63  ls
+   64  cd dailytask/
+   65  ls
+   66  cp /home/ubuntu/7th ./
+   67  ls
+   68  cat 7th
+   69  history
+   70  cd ..
+   71  ls
+   72  dcoker ps
+   73  docker ps
+   74  docker exec -it -d ubuntu
+   75  ls
+   76  ps -ef
+   77  htop
+   78  top
+   79  uptimr
+   80  date
+   81  ls -lrt
+   82  touch 7th
+   83  ls -lrt
+   84  docker images -q
+   85  docker run -it -q ubuntu
+   86  docker run -it -d e28a50f651f9 
+   87  ps
+   88  docker ps
+   89  history >> 7th
+   90  cat 7th
+   91  ls
+   92  git rm -rf .git
+   93  rm -rf .git
+   94  ls -a
+   95  \
+   96  cd Devops-Daily-Practice/
+   97  ls -a
+   98  cd ..
+   99  ls 
+  100  ls -l
+  101  ls -lt
+  102  ls -lrt
+  103  ls -ltr
+  104  ls
+  105  docker images
+  106  docker ps
+  107  docker container ls
+  108  docker images -q
+  109  docker run -it -d --my-ubuntu 6b7dfa7e8fdb
+  110  docker run -it -d --name my-ubuntu 6b7dfa7e8fdb
+  111  docker ps
+  112  docker container -q
+  113  docker container id -q
+  114  docker images -q
+  115  docker run -it -d --name sec-ubuntu 6b7dfa7e8fdb
+  116  docker ps -a
+  117  docker ps 
+  118  docker stop 6b7dfa7e8fdb
+  119  docker stop 1848b1939a35
+  120  docker ps
+  121  docker ps -a
+  122  history >> 7th
+  123  cat 7th 
+  124  touch 7tha
+  125  history > 7tha
+  126  hmm
+  127  ls
+  128  history > 7tha
+  129  cat 7tha
+  130  ls
+  131  ls -ltr
+  132  hiostory >> 7tha
+  133  history >> 7tha
+  134  cat 7tha
+  135  ks
+  136  ls
+  137  sudo apt update
+  138  history
+  139  docker ps
+  140  docker ps -a
+  141  sudo vi dockerfile
+  142  docker build -t dockerfile .
+  143  wget --version
+  144  docker images
+  145  mv dockerfile my-ubuntu
+  146  docker images
+  147  sudo vi dockerfile
+  148  ls
+  149  cat my-ubuntu 
+  150  sudo vi my-ubuntu 
+  151  docker build -t dockerfile .
+  152  docker build -t dockerfile 
+  153  docker build -t dockerfile .
+  154  docker build -t dockerfile ./
+  155  mkdir Dockhub
+  156  docker build -t dockerfile ./Dockhub/
+  157  ls
+  158  rm my-ubuntu 
+  159  ls
+  160  rm -rf my-ubuntu 
+  161  ls
+  162  rm -rf 7th 7tha
+  163  ls
+  164  cd D
+  165  cd Dockhub/
+  166  l
+  167  ls
+  168  docker images
+  169  vi dockerfile
+  170  history
+  171  ls
+  172  cd Devops-Daily-Practice/
+  173  cd jan/
+  174  ls
+  175  history > 9th
