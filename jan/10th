@@ -1,0 +1,117 @@
+  114  docker images -q
+  115  docker run -it -d --name sec-ubuntu 6b7dfa7e8fdb
+  116  docker ps -a
+  117  docker ps 
+  118  docker stop 6b7dfa7e8fdb
+  119  docker stop 1848b1939a35
+  120  docker ps
+  121  docker ps -a
+  122  history >> 7th
+  123  cat 7th 
+  124  touch 7tha
+  125  history > 7tha
+  126  hmm
+  127  ls
+  128  history > 7tha
+  129  cat 7tha
+  130  ls
+  131  ls -ltr
+  132  hiostory >> 7tha
+  133  history >> 7tha
+  134  cat 7tha
+  135  ks
+  136  ls
+  137  sudo apt update
+  138  history
+  139  docker ps
+  140  docker ps -a
+  141  sudo vi dockerfile
+  142  docker build -t dockerfile .
+  143  wget --version
+  144  docker images
+  145  mv dockerfile my-ubuntu
+  146  docker images
+  147  sudo vi dockerfile
+  148  ls
+  149  cat my-ubuntu 
+  150  sudo vi my-ubuntu 
+  151  docker build -t dockerfile .
+  152  docker build -t dockerfile 
+  153  docker build -t dockerfile .
+  154  docker build -t dockerfile ./
+  155  mkdir Dockhub
+  156  docker build -t dockerfile ./Dockhub/
+  157  ls
+  158  rm my-ubuntu 
+  159  ls
+  160  rm -rf my-ubuntu 
+  161  ls
+  162  rm -rf 7th 7tha
+  163  ls
+  164  cd D
+  165  cd Dockhub/
+  166  l
+  167  ls
+  168  docker images
+  169  vi dockerfile
+  170  ls
+  171  docker pull jenkins
+  172  history
+  173  history
+  174  ls
+  175  cd Devops-Daily-Practice/
+  176  cd jan/
+  177  ls
+  178  history > 9th
+  179  ls
+  180  git add 9th
+  181  git commit -m "added 9th date history "
+  182  git push
+  183  ls
+  184  cd ..
+  185  cd Do
+  186  cd Dockhub/
+  187  ls
+  188  vi dockerfile 
+  189  docker build -t dockerfile .
+  190  docker run -it --rm --name my-ubuntu my-ubuntu
+  191  docker run -it --rm --name my-ubuntu ubuntu
+  192  docker run -it --rm --name my-ubuntu 
+  193  docker images
+  194  docker run -it --rm --name my-ubuntu dockerfile
+  195  docker run -it --rm --name=ubuntu my-ubuntu
+  196  sudo docker run -it --rm --name=ubuntu my-ubuntu
+  197  sudo docker run -it --rm --name=my-ubuntu ubuntu
+  198  ls
+  199  sudo docker run -it --rm --name=dockerfile ubuntu
+  200  vi dockerfile 
+  201  docker build -t dockerfile .
+  202  sudo docker run -it --rm --name=dockerfile ubuntu
+  203  docker build -t dockerfile .
+  204  docker ps -a
+  205  docker ps 
+  206  sudo docker run -it --rm --name=dockerfile ubuntu
+  207  vi dockerfile 
+  208  docker build -t dockerfile .
+  209  sudo docker run -it --rm --name=dockerfile ubuntu
+  210  vi dockerfile 
+  211  docker build -t dockerfile .
+  212  vi dockerfile 
+  213  docker build -t dockerfile .
+  214  sudo docker run -it --rm --name=dockerfile ubuntu
+  215  cd ..
+  216  ls
+  217  ls -a
+  218  history > 10th
+  219  cat 10th 
+  220  history 115 >> 10th
+  221  cat 10th 
+  222  ls
+  223  cat 10th
+  224  history 
+  225  cd Devops-Daily-Practice/
+  226  ls
+  227  cd jan/
+  228  LS
+  229  ls
+  230  history 117 > 10th
