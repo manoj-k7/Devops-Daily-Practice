@@ -1,0 +1,80 @@
+ 1319  sudo vi /etc/hosts
+ 1320  ping manoj
+ 1321  sudo vi /etc/hosts
+ 1322  ping manoj1
+ 1323  ls
+ 1324  cd git
+ 1325  ls
+ 1326  git branch
+ 1327  git checkout master
+ 1328  git branch -d sujay
+ 1329  git branch -D sujay
+ 1330  git branch
+ 1331  ls
+ 1332  git log
+ 1333  git checkout naveen
+ 1334  ls
+ 1335  git checkout manoj
+ 1336  ls
+ 1337  git log
+ 1338  git checkout -b sujay
+ 1339  ls
+ 1340  git log
+ 1341  git tag v!
+ 1342  git log
+ 1343  git tag -d v!
+ 1344  git log
+ 1345  touch text1 text2
+ 1346  ls
+ 1347  git status
+ 1348  git add *
+ 1349  git status
+ 1350  git commit -m " added two files "
+ 1351  ls
+ 1352  git status
+ 1353  git log
+ 1354  git merge manoj
+ 1355  git checkout  fac55841eda0808733ddba59f05fa5742c10819e
+ 1356  git branch
+ 1357  git switch -
+ 1358  git branch
+ 1359  git log
+ 1360  git checkout  fac55841eda0808733ddba59f05fa5742c10819e
+ 1361  ls
+ 1362  git switch -
+ 1363  history
+ 1364  history 35 
+ 1365  history 50 > 11th
+ 1366  cat 11 th
+ 1367  cat 11th
+ 1368  git branch
+ 1369  git checkout master
+ 1370  git logs
+ 1371  git log
+ 1372  touch ping1
+ 1373  vi ping1
+ 1374  git add ping1 
+ 1375  git commit -m " added & modified pin1"
+ 1376  git log
+ 1377  git status
+ 1378  git log
+ 1379  git checkout facb6c1cbaef5ee4188df6df321931d9ac913c21
+ 1380  ls
+ 1381  git log
+ 1382  git checkout master
+ 1383  git log
+ 1384  ls
+ 1385  git log t2
+ 1386  git log t3
+ 1387  git tag release1
+ 1388  git tag
+ 1389  git logs
+ 1390  git log
+ 1391  touch test1 test2
+ 1392  git add test1 test2
+ 1393  git checkout -m " added test files "
+ 1394  git commit -m " added test files "
+ 1395  git checkout tag
+ 1396  git checkout release1
+ 1397  ls
+ 1398  history 80 > 11th
