@@ -1,0 +1,50 @@
+ 1325  ls
+ 1326  git branch
+ 1327  git log
+ 1328  git checkout manu
+ 1329  ls
+ 1330  touch file{1..5}
+ 1331  git file{1...5}
+ 1332  git add file{1..5}
+ 1333  git commit -m " added new files "
+ 1334  git log
+ 1335  ls
+ 1336  vi file1
+ 1337  git add file1
+ 1338  git status
+ 1339  git commit -m " modified file1"
+ 1340  git branch
+ 1341  git checkout master
+ 1342  git logs
+ 1343  git log
+ 1344  git checkout manoj
+ 1345  git log
+ 1346  git rebase -i HEAD~3
+ 1347  git status
+ 1348  ls
+ 1349  git add *
+ 1350  git rm --cached Devops-Daily-Practice
+ 1351  git status
+ 1352  git rm Devops-Daily-Practice/
+ 1353  git rm -rf Devops-Daily-Practice/
+ 1354  git rebase -i HEAD~3
+ 1355  git stash Devops-Daily-Practice/
+ 1356  git stash clear Devops-Daily-Practice/
+ 1357  git stash clear
+ 1358  git status
+ 1359  git add *
+ 1360  git commit -m "added all files"
+ 1361  git log
+ 1362  git reset --mixed 0afd3cf97d2898dd37c8d2b4a245a80eee252ec6
+ 1363  git status
+ 1364  git reset --soft 0afd3cf97d2898dd37c8d2b4a245a80eee252ec6
+ 1365  git status
+ 1366  git revert  0afd3cf97d2898dd37c8d2b4a245a80eee252ec6
+ 1367  git rebase -i HEAD~3
+ 1368  git revert  0afd3cf97d2898dd37c8d2b4a245a80eee252ec6
+ 1369  git status
+ 1370  git rm deleted
+ 1371  ls
+ 1372  git branch
+ 1373  history
+ 1374  history 50 > 12th
