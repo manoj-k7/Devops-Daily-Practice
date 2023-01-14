@@ -1,0 +1,50 @@
+ 1621  ls
+ 1622  cd ..
+ 1623  rm -rf manu
+ 1624  ls
+ 1625  cat manoj
+ 1626  ll
+ 1627  cd manoj
+ 1628  rm manoj
+ 1629  l
+ 1630  ls
+ 1631  cd my-scripts/
+ 1632  ls
+ 1633  cd ..
+ 1634  cd git/
+ 1635  las
+ 1636  ls
+ 1637  rm 12th new1 t2 t3
+ 1638  cd Devops-Daily-Practice/
+ 1639  ls
+ 1640  cd jan/\
+ 1641  cd jan/
+ 1642  ls
+ 1643  find . -type f test
+ 1644  find / -type f test
+ 1645  find pwd -type f test
+ 1646  find . -type f perm 0777
+ 1647  find . f perm 0777
+ 1648  find . f test
+ 1649  find . -type f -empty
+ 1650  find . -type f -not -empty
+ 1651  find . -type f +0
+ 1652  find . -type f +1
+ 1653  find . -type f -mtime 10
+ 1654  find . -type f -mtime +10
+ 1655* 
+ 1656  find . -type f -mtime -3
+ 1657  find . -type f -mtime -7
+ 1658  find . -type f -mtime -10
+ 1659  find . -type f -mtime -2
+ 1660  find . -type d -mtime +15
+ 1661  find . -type d -mtime -15
+ 1662  find . -type d -mtime +30
+ 1663  find . -type f maxdepth +30
+ 1664  date+%d
+ 1665  date
+ 1666  date + % d
+ 1667  date +% d
+ 1668  date +%d
+ 1669  history
+ 1670  history 50 > 14th
