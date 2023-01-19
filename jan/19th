@@ -1,0 +1,110 @@
+  166  git pull https://github.com/manoj-k7/Devops-Daily-Practice.git
+  167  git clone  https://github.com/manoj-k7/Devops-Daily-Practice.git
+  168  cd Devops-Daily-Practice/
+  169  cp /home/ec2-user/18th /home/ec2-user/Devops-Daily-Practice/jan/
+  170  cd jan/
+  171  ls
+  172  cat 18th 
+  173  cd ..
+  174  cd ~
+  175  ssh ubuntu@43.205.195.175
+  176  uniq 
+  177  date
+  178  \
+  179  ls
+  180  ls -lrt
+  181  touch 18th
+  182  ls
+  183  ls -lrt
+  184  ls
+  185  sudo yum update
+  186  ls
+  187  find . -type maxdepth 1 " 11th "
+  188  find . -type maxdepth 1 "11th"
+  189  find . -type maxdepth 1 "test"
+  190  find . -type maxdepth 1 "18th"
+  191  find . -type f  maxdepth 1 "18th"
+  192  find . -maxdepth 1 -iname "18th"
+  193  find . -maxdepth 1 -iname "11th"
+  194  find . -maxdepth 3 -iname "11th"
+  195  find . -maxdepth 3 -iname "jan"
+  196  find . -type f -mtime +3
+  197  find . -type f -mtime +15
+  198  touch 19th
+  199  find . -type f -mmin -1
+  200  find . -type f -mmin -2
+  201  find . -type f -mtime -2
+  202  find . -type f -mtime +2
+  203  find . -type f -mmin -1200
+  204  find . -type f -mmin -1500
+  205  ls -lrt
+  206  chown -R manoj:manoj 19th
+  207  useradd manoj
+  208  sudo useradd manoj
+  209  chown -R manoj:manoj 19th
+  210  sudo chown -R manoj:manoj 19th
+  211  ls -lrt
+  212  sudo chown -R ec2-user:ec2-user 19th
+  213  ls -lrt
+  214  chmod o+x 19th
+  215  ls -lrt
+  216  chmod a+x 19th
+  217  ls -lrt
+  218  chmod o-x 19th
+  219  ls -lrt
+  220  vi 19th
+  221  cat 19th
+  222  grep -l "linux"
+  223  grep -e "program" -e "system" 19th
+  224  grep  "program"  19th
+  225  grep "^L" 19th
+  226  grep "^L$x" 19th
+  227  grep -l 19th
+  228  grep wc 19th
+  229  grep wc-l 19th
+  230  grep -l linux 19th
+  231  grep -c linux 19th
+  232  grep -c Linux 19th
+  233  grep -c Program 19th
+  234  grep -c program 19th
+  235  grep -c server 19th
+  236  grep -c system 19th
+  237  grep -l system 19th
+  238  grep -w system 19th
+  239  grep -wc system 19th
+  240  grep -w system 19th
+  241  grep -wc system 19th
+  242  grep -c system 19th
+  243  grep -i PROGRAM 19th
+  244  grep -i SYSTEM 19th
+  245  grep SYSTEM 19th
+  246  cat 19th |
+  247  cat 19th | tee log
+  248  ls
+  249  cat log
+  250  hup
+  251  ls -lrt | awk -F " " {Print $2}
+  252  ls -lrt | awk -F " " '{Print $2}'
+  253  ls -lrt | awk -F " " '{Print($2)}'
+  254  ls -lrt
+  255  ls -lrt | awk -F " " '{print $2}'
+  256  ls -lrt | awk -F " " '{print $2}' | sed '1s/16/ /g'
+  257  print2=`ls -lrt | awk -F " " '{print $2}' | sed '1s/16/ /g'`
+  258  ls
+  259  echo print2
+  260  cat print2
+  261  touch print2 && print2=`ls -lrt | awk -F " " '{print $2}' | sed '1s/16/ /g'`
+  262  cat print2 
+  263  touch print2 > =`ls -lrt | awk -F " " '{print $2}' | sed '1s/16/ /g'`
+  264  touch print2 > `ls -lrt | awk -F " " '{print $2}' | sed '1s/16/ /g'`
+  265  history 150 > 19tha
+  266  cat 19tha
+  267  history 100 > 19tha
+  268  cat 19tha
+  269  mv 19th test
+  270  ls
+  271  mv 19tha 19th
+  272  ls
+  273  ls -lrt
+  274  tail -f test
+  275  history 110 > 19th
