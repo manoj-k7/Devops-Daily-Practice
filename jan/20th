@@ -1,0 +1,180 @@
+ 1626  cd manoj
+ 1627  rm manoj
+ 1628  l
+ 1629  ls
+ 1630  cd my-scripts/
+ 1631  ls
+ 1632  cd ..
+ 1633  cd git/
+ 1634  las
+ 1635  ls
+ 1636  rm 12th new1 t2 t3
+ 1637  cd Devops-Daily-Practice/
+ 1638  ls
+ 1639  cd jan/\
+ 1640  cd jan/
+ 1641  ls
+ 1642  find . -type f test
+ 1643  find / -type f test
+ 1644  find pwd -type f test
+ 1645  find . -type f perm 0777
+ 1646  find . f perm 0777
+ 1647  find . f test
+ 1648  find . -type f -empty
+ 1649  find . -type f -not -empty
+ 1650  find . -type f +0
+ 1651  find . -type f +1
+ 1652  find . -type f -mtime 10
+ 1653  find . -type f -mtime +10
+ 1654  find . -type f -mtime -3
+ 1655  find . -type f -mtime -7
+ 1656  find . -type f -mtime -10
+ 1657  find . -type f -mtime -2
+ 1658  find . -type d -mtime +15
+ 1659  find . -type d -mtime -15
+ 1660  find . -type d -mtime +30
+ 1661  find . -type f maxdepth +30
+ 1662  date+%d
+ 1663  date
+ 1664  date + % d
+ 1665  date +% d
+ 1666  date +%d
+ 1667  history
+ 1668  history 50 > 14th
+ 1669  ls
+ 1670  git add 14th
+ 1671  git commit -m "14th file added"
+ 1672  git branch
+ 1673  git checkout manoj
+ 1674  ls
+ 1675  git branch
+ 1676  git checkout main
+ 1677  cd ~
+ 1678  ls
+ 1679  mkdir manoj
+ 1680  cd manoj
+ 1681  touch t1 t3 t2
+ 1682  ls
+ 1683  vi t1
+ 1684  ls -lrt
+ 1685  ls -ltr
+ 1686  ls -l
+ 1687  lsof
+ 1688  lsns
+ 1689  ls
+ 1690  ls -a
+ 1691  who
+ 1692  \
+ 1693  whhoami
+ 1694  whoami
+ 1695  who
+ 1696  date
+ 1697  cat /etc/passwd
+ 1698  uptime
+ 1699  date
+ 1700  hup
+ 1701  hup t1
+ 1702  free
+ 1703  df
+ 1704  du
+ 1705  df -h
+ 1706  du -sh
+ 1707  du -sh t3
+ 1708  du -sh t1
+ 1709  du -sh t2
+ 1710  df -h t2
+ 1711  top
+ 1712  ps
+ 1713  ps -e
+ 1714  ps -ef
+ 1715  ps axu
+ 1716  ps -a
+ 1717  ps 
+ 1718  more
+ 1719  more ps -ef
+ 1720  more \ ps -ef
+ 1721  more | ps -ef
+ 1722  ps -ef
+ 1723  lv
+ 1724  pv
+ 1725  tail -f t3
+ 1726  tail -f t1
+ 1727  tail -f git
+ 1728  history > 20th
+ 1729  cat 20th 
+ 1730  history 100 >> 20th
+ 1731  cat 20th
+ 1732  history 100 > 20th
+ 1733  cat 20th
+ 1734  cd ..
+ 1735  cat /var/lib/syslog
+ 1736  vi /var/lib/syslog
+ 1737  cat /var/lib/syslog
+ 1738  cd /var/lib/syslog
+ 1739  uname
+ 1740  uname -a
+ 1741  uname -v
+ 1742  which git
+ 1743  which maven
+ 1744  which mvn
+ 1745  which java
+ 1746  \
+ 1747  netstat 
+ 1748  netstat -a
+ 1749  netstat -tulpn
+ 1750  netstat -l
+ 1751  netstat -ll
+ 1752  netstat -l
+ 1753  netstat -lu
+ 1754  netstat -lt
+ 1755  history
+ 1756  mount
+ 1757  vi /etc/sudoers
+ 1758  sudo vi /etc/sudoers
+ 1759  ls
+ 1760  cat touch 
+ 1761  ln touch sftlnk1
+ 1762  ls -krt
+ 1763  ls -lrt
+ 1764  ln -s /home/ubuntu/touch hrdlnk
+ 1765  ls -lrt
+ 1766  ln  /home/ubuntu/touch sftlnk
+ 1767  ls -lrt
+ 1768  vi touch 
+ 1769  cat sftlnk
+ 1770  cat sftlnk1
+ 1771  cat hrdlink
+ 1772  cat hrdlnk
+ 1773  rm -rf touch 
+ 1774  cat hrdlnk
+ 1775  cat sftlnk1
+ 1776  cat sftlnk
+ 1777  mv sftlnk hrdlnk1
+ 1778  mv sftlnk1 hrdlnk2
+ 1779  ls -lrt
+ 1780  cat hrdlnk2
+ 1781  cat hrdlnk1
+ 1782  cat hrdlnk
+ 1783  rm -rf hrdlnk hrdlnk1 hrdlnk2
+ 1784  ls -lrt
+ 1785  cat manoj
+ 1786  cat test2
+ 1787  ln /home/ubuntu/test2 sftlnk
+ 1788  ls -lrt
+ 1789  chmod 600 sftlnk 
+ 1790  ls -lrt
+ 1791  vk sftlnk 
+ 1792  vi sf
+ 1793  vi sftlnk 
+ 1794  cat test2 
+ 1795  mv sftlnk hrdlnk
+ 1796  ln -s /home/ubuntu/test2 sftlnk
+ 1797  ls -lrt
+ 1798  vi sftlnk 
+ 1799  cat hrdlnk 
+ 1800  cat test2 
+ 1801  rm -rf
+ 1802  rm -rf test2 
+ 1803  cat sftlnk 
+ 1804  cat hrdlnk 
+ 1805  history 180 > 20th
