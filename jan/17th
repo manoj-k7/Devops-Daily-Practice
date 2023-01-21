@@ -1,0 +1,70 @@
+  183  sudo su -
+  184  cat /etc/passwd
+  185  sudo su sonaradmin
+  186  lsblk
+  187  df TH
+  188  mount
+  189  lv
+  190  pv
+  191  sudo su -
+  192  df -TH
+  193  lsblk
+  194  mount
+  195  mkfs -t ext4 /dev/sdf
+  196  sudo mkfs -t ext4 /dev/sdf
+  197  lsblk
+  198  cd /mnt
+  199  ls
+  200  cd mydisk
+  201  mount /dev/sdf/mnt/mydisk
+  202  mount /dev/sdf/mnt/mydisk/
+  203  sudo mount /dev/sdf/mnt/mydisk/
+  204  cat /etc/fstab.
+  205  vi /etc/fstab.
+  206  cd ..
+  207  cd ~
+  208  cd /dev
+  209  ls
+  210  cd sdf/
+  211  cd xvdf
+  212  cd xvdf/
+  213  ls -lrt
+  214  cd /sdf
+  215  sudo cd /sdf
+  216  cd ..
+  217  cd ~
+  218  cd /mnt
+  219  ls
+  220  mv mydisk sdf
+  221  sudo mv mydisk sdf
+  222  cd sdf/
+  223  ls
+  224  sudo mkfs -t ext4 /dev/sdf
+  225  lsblk
+  226  mount /dev/sdf/mnt/sdf
+  227  df -Th
+  228  df -TH
+  229  pwd
+  230  mount /dev/sdf/ /mnt/sdf
+  231  sudo mount /dev/sdf/ /mnt/sdf
+  232  cd ..
+  233  c ..
+  234  cd ..
+  235  cd ~
+  236  sudo su -
+  237  history | tee 18th
+  238  ls
+  239  ls
+  240  cat 18th
+  241  sudo su -
+  242  vi apache.pem
+  243  scp -i apache.pem /home/ec2-user/18th ubuntu@43.205.195.175:/home/ubuntu/
+  244  chmod 777 apache.pem
+  245  ls
+  246  scp -i apache.pem /home/ec2-user/18th ubuntu@43.205.195.175:/home/ubuntu/
+  247  scp -i apache.pem  ubuntu@43.205.195.175:/home/ubuntu/
+  248  scp -i apache.pem /home/ec2-user/18th  ubuntu@43.205.195.175:/home/ubuntu/
+  249  ls
+  250  scp -i apache.pem /home/ec2-user/18th  ec2-userec2-user@13.233.68.7:/home/ec2-user/practice/
+  251  git --version
+  252  history 70 | tee 18th

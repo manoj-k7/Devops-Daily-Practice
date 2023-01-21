@@ -1,0 +1,50 @@
+  112  find . -perm 0766
+  113  find . \-perm 0766
+  114  ls -ltr | awk -F " " {print(S1)} 
+  115  ls -ltr | awk -F " " {print('S1')} 
+  116  ls -ltr | awk -F " " {'print(S1)'} 
+  117  ls -ltr | awk -F " " {'print(S3)'} 
+  118  find . -type maxdepth f +30
+  119  find . -type f -name “test”
+  120  find . -type f -name “t1”
+  121  ls
+  122  cd practice/
+  123  find . -type f -name “t1”
+  124  find . -type f -empty
+  125  find . -type f “t1”
+  126  find . -type f -user ec2-user
+  127  ls
+  128  cd practice/
+  129  la
+  130  ls
+  131  cd /var/lib/jenkins
+  132  ls
+  133  cd workspace/
+  134  ls
+  135  cd ..
+  136  ls
+  137  cd ..
+  138  ls
+  139  cd ..
+  140  cd ~
+  141  ls
+  142  git branch
+  143  git clone https://github.com/manoj-k7/Jenkins_pipeline.git
+  144  ls
+  145  cd Jenkins_pipeline/
+  146  ls
+  147  vi jenkinsfile
+  148  git add *
+  149  git commit -m "added jenkinsfile"
+  150  git push
+  151  ls
+  152  cd Jenkins_pipeline/
+  153  ls
+  154  cd ..
+  155  vi apache.pem
+  156  chmod 777 apache.pem 
+  157  scp -i apache.pem /home/ec2-user/Jenkins_pipeline/jenkinsfile ec2-user@43.205.215.35 :/home/ec2-user/
+  158  sudo scp -i apache.pem /home/ec2-user/Jenkins_pipeline/jenkinsfile ec2-user@43.205.215.35 :/home/ec2-user/.
+  159  sudo scp -i apache.pem /home/ec2-user/Jenkins_pipeline/jenkinsfile ec2-user@43.205.215.35:/home/ec2-user/.
+  160  sudo scp -i apache.pem /home/ec2-user/Jenkins_pipeline/jenkinsfile ec2-user@43.205.215.35:/home/ec2-user/pipeline
+  161  history 50 | tee 18th
