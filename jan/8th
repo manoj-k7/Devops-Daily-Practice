@@ -1,0 +1,70 @@
+ 1197  vi hmemo.sh 
+ 1198  ./hmemo.sh 
+ 1199  vi hmemo.sh 
+ 1200  ./hmemo.sh 
+ 1201  cd scripts/
+ 1202  ls
+ 1203  sh hmemo.sh 
+ 1204  cd scripts/
+ 1205  cat hmemo.sh 
+ 1206  vi hmemo.sh 
+ 1207  sh hmemo.sh 
+ 1208  vi hmemo.sh 
+ 1209  htop | head -n 1
+ 1210  htop | head -n 2 | awk -F " " '{print $1}'
+ 1211  cd scripts/
+ 1212  vi hmemo.sh 
+ 1213  sh hmemo.sh 
+ 1214  vi hmemo.sh 
+ 1215  sh hmemo.sh 
+ 1216  vi hmemo.sh 
+ 1217  sh hmemo.sh 
+ 1218  vi hmemo.sh 
+ 1219  sh hmemo.sh 
+ 1220  vi hmemo.sh 
+ 1221  sh hmemo.sh 
+ 1222  vi hmemo.sh 
+ 1223  cd scripts/
+ 1224  vi hmemo.sh 
+ 1225  sh hmemo.sh 
+ 1226  cd scripts/
+ 1227  vi hmemo.sh 
+ 1228* vi auto
+ 1229  history 
+ 1230  \
+ 1231  vi auto-install.sh 
+ 1232  sh  auto-install.sh 
+ 1233  vi auto-install.sh 
+ 1234  sh  auto-install.sh 
+ 1235  vi auto-install.sh 
+ 1236  sh  auto-install.sh 
+ 1237  vi auto-install.sh 
+ 1238  sh  auto-install.sh 
+ 1239  vi auto-install.sh 
+ 1240  sh  auto-install.sh 
+ 1241  wq!
+ 1242  vi auto-install.sh 
+ 1243  sudo apt list --installed | grep jenkin wget curl maven git apache2 gcc
+ 1244  sudo apt list --installed | grep "jenkin wget curl maven git apache2 gcc"
+ 1245  sudo apt list --installed | grep " jenkins wget curl maven git apache2 gcc "
+ 1246  sudo apt list --installed | grep " jenkins "  
+ 1247  sudo apt list --installed | grep  jenkins   
+ 1248  sudo apt list --installed | grep jenkins wget curl maven git apache2 gcc -q
+ 1249  sudo apt list --installed | grep jenkins wget curl maven git apache2 gcc 
+ 1250  sudo apt list --installed | grep  gcc
+ 1251  ls
+ 1252  cd ..
+ 1253  cd git/
+ 1254  ls
+ 1255  rm test2 
+ 1256  cd D
+ 1257  cd Devops-Daily-Practice/
+ 1258  ls
+ 1259  cd dailytask/
+ 1260  ls
+ 1261  git pull 
+ 1262  ls
+ 1263  history > 8th
+ 1264  cat 8th 
+ 1265  rm 8th 
+ 1266  history 70 > 8th

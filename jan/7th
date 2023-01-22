@@ -1,0 +1,22 @@
+    1  exit
+    2  newgrp docker
+    3  exit
+    4  git clone https://github.com/manoj-k7/Devops-Daily-Practice.git
+    5  ls
+    6  docker images
+    7  docker rmi 6b7dfa7e8fdb
+    8  docker images
+    9  docker pull ubuntu
+   10  docker images -q
+   11  docker rmi $(docker images -q)
+   12  docker images -q
+   13  docker rmi $(docker images -q)
+   14  docker images
+   15  history
+   16  ls
+   17  git pull ubuntu
+   18  docker pull ubuntu
+   19  docker pull ubuntu:22.04
+   20  docker pull ubuntu:18.04
+   21  docker images
+   22  history > 7th

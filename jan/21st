@@ -1,0 +1,100 @@
+  327  shutdown -r now
+  328  sudo shutdown -r now
+  329  docker images
+  330  docker pull jenkins
+  331  docker images
+  332  docker pull jenkins
+  333  docker pull jenkins:lts
+  334  ls
+  335  cd Dockhub/
+  336  docker pull jenkins:lts
+  337  dokcer rmi $( docker images -q)
+  338  dokcer rmi $(docker images -q)
+  339  docker status
+  340  docker info
+  341  docker start
+  342  sudo service docker start
+  343  docker info
+  344  sudo service docker start
+  345  sudo systemctl docker start
+  346  sudo service docker start
+  347  sudo service docker status
+  348  dokcer rmi $(docker images -q)
+  349  docker pull jenkins:lts
+  350  docker run -p 8080:8080 --name=jenkins-master -d jenkins/jenkins
+  351  docker images
+  352  cat /var/jenkins_home/secrets/initialAdminPassword
+  353  cd Dockhub/
+  354  docker images
+  355  docker run -it -d 682e28744673
+  356  docker ps -a
+  357  cat /var/jenkins_home/secrets/initialAdminPassword
+  358  mkdir jenkins_home
+  359  docker ps -a
+  360  docker exec -it --rm 81762b51ecbe
+  361  cat /var/jenkins_home/secrets/initialAdminPassword
+  362  docker exec -it --rm 81762b51ecbe
+  363  docker exec -it -d --rm 81762b51ecbe 
+  364  docker exec --help
+  365  cd ..
+  366  ls
+  367  rm -rf jenkins_home/
+  368  ls
+  369  cd Dockhub/
+  370  ls
+  371  cd dockerrepo/
+  372  ls
+  373  cd ..
+  374  docker images
+  375  docker images -q
+  376  docker ps
+  377  docker ps -a
+  378  docker rmi $(docker images -q)
+  379  docker images
+  380  docker rmi -f $(docker images -q)
+  381  docker images
+  382  docker rm $(docker ps -aq)
+  383  docker ps -a
+  384  docker ps 
+  385  docker run -it -d --name ubuntu
+  386  docker run --help
+  387  docker login
+  388  exit
+  389  cd Dockhub/
+  390  ls
+  391  docker images
+  392  docker tag ubuntu:18.04 ubuntu manojk7/dockertasks:19
+  393  docker tag ubuntu:18.04 manojk7/dockertasks:19
+  394  docker iamges
+  395  docker images
+  396  docker tag manojk7/dockertasks:19 manojk7/ubuntu:19
+  397  docker images
+  398  docker login
+  399  docker push manojk7/ubuntu
+  400  docker images -q
+  401  docker rmi (docker images -q)
+  402  docker rmi $(docker images -q)
+  403  docker images
+  404  docker rmi -f $(docker images -q)
+  405  docker images
+  406  docker pull jenkins/jenkins
+  407  docker images
+  408  docker run -it 682e28744673 
+  409  docker run -it -d jenkins/jenkins /bin/bash
+  410  docker ps
+  411  docker attach 9d447bee2c89 
+  412  docker ps
+  413  docker ps -a
+  414  docker run -it -d jenkins/jenkins /bin/bash
+  415  docker os
+  416  docker ps
+  417  docker pause ce8c98e3081e 
+  418  docker ps
+  419  docker run ce8c98e3081e 
+  420  cd ..
+  421  cd Devops-Daily-Practice/
+  422  cd jan/
+  423  git pull
+  424  history 120 > 21st
+  425  cat 21st 
+  426  history 100 > 21st

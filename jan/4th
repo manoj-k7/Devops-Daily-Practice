@@ -1,0 +1,110 @@
+ 1040  netstat -t
+ 1041  netstat -l
+ 1042  netstat -u
+ 1043  netstat -a
+ 1044  netstat -al
+ 1045  netstat -lt
+ 1046  netstat -tulp
+ 1047  localhost
+ 1048  ping localhost
+ 1049  cat /etc/hosts
+ 1050  ln -s pwd sftlnk2
+ 1051  ls
+ 1052  cat sftlnk2 
+ 1053  hi hello >> sftlnk2 
+ 1054  cat sftlnk2 
+ 1055  hostname
+ 1056  hostname -i
+ 1057  hostname -I
+ 1058  find . -type -perm 0777
+ 1059  find . -name -perm 0777
+ 1060  find . -type f -perm 0777
+ 1061  find . -type f -perm 066
+ 1062  find . -type f -perm 0666
+ 1063  find . -type f -perm 0664
+ 1064  find . -type f +mmin +60
+ 1065  find . -type f -mmin +60
+ 1066  find . -type f -mmin -60
+ 1067  find . -type f -mtime -15
+ 1068  find . -type f -empty
+ 1069  find . -type f -non-empty
+ 1070  find . -type f -not-empty
+ 1071  find . -type f -not -empty
+ 1072  mem-infp
+ 1073  mem-info
+ 1074  /temp
+ 1075  cd /temp
+ 1076  \
+ 1077  ls
+ 1078  sed '4p' manoj
+ 1079  sed '4p' manoj | awk -F " " '{ print $(NF) }'
+ 1080  ls
+ 1081  ls -a
+ 1082  sed '4p' manoj | awk -F " " '{ print $(NF) }' | uniq
+ 1083  cat manoj
+ 1084  grep -v "ubuntu" manoj
+ 1085  wc manoj
+ 1086  wcl manoj
+ 1087  wc manoj
+ 1088  sed '4p' manoj | tail -2
+ 1089  more
+ 1090  less
+ 1091  more manoj
+ 1092  less manoj
+ 1093  history 
+ 1094  ps -ef
+ 1095  ps -u " ubuntu "
+ 1096  ps -u "ubuntu"
+ 1097  ls -l
+ 1098  chmod 766 manoj
+ 1099  ls -l
+ 1100  chown ubuntu:ABC test
+ 1101  chown manoj:ABC test
+ 1102  userdadd manoj
+ 1103  useradd manoj
+ 1104  sudo useradd manoj
+ 1105  chown manoj:ABC test
+ 1106  sudo su manoj
+ 1107  ls
+ 1108  cd practice/
+ 1109  ls
+ 1110  vi t1
+ 1111  cat t1
+ 1112  grep "Merge" t1
+ 1113  grep -v "Merge"
+ 1114  grep -r "development" *
+ 1115  grep -R "development" *
+ 1116  grep -r "Development" *
+ 1117  grep -r "Linux" *
+ 1118  grep -l "Linux" *
+ 1119  sed 's/Merge/Rebase/g' t1
+ 1120  cat t1
+ 1121  grep "^M" t1
+ 1122  grep "^M$e" t1
+ 1123  grep "^G$t" t1
+ 1124  grep "^h$y" t1
+ 1125  grep "^M$e" t1
+ 1126  ls
+ 1127  cd ..
+ 1128  cd git/
+ 1129  ls
+ 1130  Cd Devops-Daily-Practice/
+ 1131  cd Devops-Daily-Practice/
+ 1132  ls
+ 1133  cd d
+ 1134  cd dailytask/
+ 1135  ls
+ 1136  history > 4th
+ 1137  ls
+ 1138  cat 4th
+ 1139  git add 4th
+ 1140  git status
+ 1141  git commit -m "added 4th file"
+ 1142  git push 
+ 1143  history 100
+ 1144  cat 3rd 
+ 1145  rm -rf 4th
+ 1146  ls
+ 1147  git pull
+ 1148  ls
+ 1149  history 110 > 4th

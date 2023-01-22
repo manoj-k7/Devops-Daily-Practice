@@ -1,0 +1,75 @@
+ 1136  vi hmemo.sh 
+ 1137  ./hmemo.sh 
+ 1138  vi hmemo.sh 
+ 1139  ./hmemo.sh 
+ 1140  vi hmemo.sh 
+ 1141  ./hmemo.sh 
+ 1142  vi hmemo.sh 
+ 1143  ./hmemo.sh 
+ 1144  vi hmemo.sh 
+ 1145  ./hmemo.sh 
+ 1146  vi hmemo.sh 
+ 1147  ./hmemo.sh 
+ 1148  find . -type f -empty
+ 1149  find . -type f -not -empty
+ 1150  history
+ 1151  find . -type f -perm 777
+ 1152  find . -type f -perm 0777
+ 1153  find . -type d -perm 0777
+ 1154  find . -type  -perm 0777
+ 1155  ls -lrt | awk -F " " '{print $1}'
+ 1156  ls -lrt | awk -F " " '{print NF}'
+ 1157  ls -lrt | awk -F " " '{print NF-1}'
+ 1158  ls -lrt | awk -F " " '{print NF-2}'
+ 1159  ls -lrt | awk -F " " '{print NF-3
+ 1160  ls -lrt | awk -F " " '{print NF-3
+ 1161  ls -lrt | awk -F " " '{print NF-3
+ 1162  ls -lrt | awk -F " " '{print NF-3}
+ 1163  ls -lrt | awk -F " " '{print NF-3}'
+ 1164  ls -lrt
+ 1165  ls -lrt | awk -F " " '{print (NF-3)}'
+ 1166  ls -lrt | awk -F " " '{print $(NF-3)}'
+ 1167  ls -lrt | awk -F " " '{ print $(NF-3) }'
+ 1168  ls -lrt | awk -F " " '{ print $(NF-1) }'
+ 1169  ls -lrt | awk -F " " '{ print $(NF-2) }'
+ 1170  ls -lrt | awk -F " " '{ print $(NF-3) }
+ 1171  sep -n '2p' test2
+ 1172  ls
+ 1173  cat test
+ 1174  sep -n '2p' test
+ 1175  sed -n '2p' test
+ 1176  sed -n '2p:3p' test
+ 1177  sed -n '2p,3p' test
+ 1178  sed -n '2p' test
+ 1179  ps -ef
+ 1180  ps -ef | head -20
+ 1181  ps -ef |tail - 10
+ 1182  ps -ef |tail -10
+ 1183  wcl test
+ 1184  wc test
+ 1185  wc-l test
+ 1186  wc test
+ 1187  find . -type f +mtime +20
+ 1188  find . -type f -mtime +20
+ 1189  find . -type f -mtime +2
+ 1190  find . -type f -mminute -15
+ 1191  find . -type f -mmin -15
+ 1192  find . -type f -mmin -60
+ 1193  sudo useradd manoj
+ 1194  sudo su manoj
+ 1195  cd scripts/
+ 1196  ls
+ 1197  vi hmemo.sh 
+ 1198  ./hmemo.sh 
+ 1199  vi hmemo.sh 
+ 1200  ./hmemo.sh 
+ 1201  cd g
+ 1202  cd git/
+ 1203  ls
+ 1204  cd Devops-Daily-Practice/
+ 1205  ls
+ 1206  cd dailytask/
+ 1207  ls
+ 1208  history 60 
+ 1209  history 90
+ 1210  history 75 > 5th
