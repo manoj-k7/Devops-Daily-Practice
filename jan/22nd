@@ -1,0 +1,106 @@
+    1  exit
+    2  sudo yum update
+    3  sudo yum install gcc make maven java git wget curl -y
+    4  cd .ssh
+    5  ls
+    6  vi authorized_keys 
+    7  which jenkins
+    8  sudo yum update
+    9  java --version
+   10  sudo yum install wget
+   11  sudo wget https://dlcdn.apache.org/tomcat/tomcat-9/v9.0.62/bin/apache-tomcat-9.0.62.tar.gz
+   12  wget https://dlcdn.apache.org/tomcat/tomcat-9/v9.0.71/bin/apache-tomcat-9.0.71.tar.gz
+   13  ls
+   14  untar apache-tomcat-9.0.71.tar.gz 
+   15  unzip apache-tomcat-9.0.71.tar.gz 
+   16  ls
+   17  unzip apache-tomcat-9.0.71.tar.gz
+   18  tar -xvzf  apache-tomcat-9.0.71.tar.gz
+   19  ls
+   20  cd apache-tomcat-9.0.71/
+   21  ls
+   22  cd conf/
+   23  ll
+   24  cd ..
+   25  cd bin/
+   26  ll
+   27  ./startup.sh 
+   28  cd ..
+   29  cd conf/
+   30  vi context.xml 
+   31  ll
+   32  cd ..
+   33  find -name context.xml
+   34  vi ./webapps/host-manager/META-INF/context.xml
+   35  vi ./webapps/manager/META-INF/context.xml
+   36  cd conf/
+   37  vi tomcat-users.xml 
+   38  history
+   39  cd ..
+   40  cd bin
+   41  ls
+   42  ./shutdown.sh 
+   43  ./startup.sh 
+   44  ./shutdown.sh 
+   45  ./startup.sh 
+   46  cd ..
+   47  cd conf/
+   48  vi tomcat-users.xml
+   49  cd ..
+   50  cd bin/
+   51  ./shutdown.sh 
+   52  ./startup.sh 
+   53  ./shutdown.sh 
+   54  ./startup.sh 
+   55  cd ..
+   56  cd conf
+   57  vi tomcat-users.xml
+   58  cd ..
+   59  cd bin/
+   60  ./shutdown.sh 
+   61  ./startup.sh 
+   62  cd ..
+   63  vi tomcat-users.xml
+   64  cd conf/
+   65  vi tomcat-users.xml
+   66  cd ..
+   67  cd bin
+   68  ./shutdown.sh 
+   69  ./startup.sh 
+   70  cd ..
+   71  cd conf/
+   72  vi tomcat-users.xml
+   73  cd ..
+   74  cd bin
+   75  ./shutdown.sh 
+   76  ./startup.sh 
+   77  cd ..
+   78  cd conf/
+   79  vi tomcat-users.xml
+   80  ls
+   81  cd ..
+   82  ls
+   83  cd webapps/
+   84  ls
+   85  vi host-manager/
+   86  cat docs/
+   87  cd docs
+   88  ls
+   89  cd ..
+   90  ln -s  /home/ec2-user/apache-tomcat-9.0.71/bin/startup.sh /usr/share/maven/tomstart
+   91  sudo ln -s  /home/ec2-user/apache-tomcat-9.0.71/bin/startup.sh /usr/share/maven/tomstart
+   92  ls
+   93  cd ..
+   94  ls
+   95  tomstart
+   96  cd apache-tomcat-9.0.71/
+   97  ls
+   98  cd conf/
+   99  ll
+  100  vi web.xml 
+  101  cd ..
+  102  history > 22nd
+  103  ls
+  104  rm -rf 22nd
+  105  cd ..
+  106  history > 22nd
