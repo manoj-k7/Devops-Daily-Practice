@@ -1,0 +1,105 @@
+  448  docker exec -it -d 7864e2aa232a /bin/bash 
+  449  docker exec -it  7864e2aa232a /bin/bash 
+  450  docker ps
+  451  docker exec -it  7864e2aa232a /bin/bash ls
+  452  which app
+  453  whereis docker
+  454  which docker
+  455  finger user
+  456  uname -a
+  457  uname
+  458  cat proc/meminfo
+  459  cat proc/meminfo/
+  460  cat /proc/meminfo
+  461  cd Dockhub/
+  462  docker images
+  463  ls
+  464  cd Devops-Daily-Practice/
+  465  cd jan/
+  466  ls
+  467  git pull
+  468  ls
+  469  cd ~
+  470  ls
+  471  cd Dockhub/
+  472  ls
+  473  cd dockerrepo/
+  474  ls
+  475  rm -rf dockerfile 
+  476  cd ..
+  477  Vi Dockerfile
+  478  vi Dockerfile
+  479  docker images
+  480  docker rmi $(docker images -q)
+  481  docker ps
+  482  docker ps -a
+  483  docker rmi -f $(docker images -q)
+  484  docker rm -f $(docker ps -aq)
+  485  docker ps -a
+  486  docker ps
+  487  docker images
+  488  docker build -t my_ubuntu .
+  489  docker run -it --rm --name my_ubuntu ubuntu /bin/bash
+  490  docker images
+  491  docker ps
+  492  docker ps -a
+  493  vi Dockerfile
+  494  docker build -t my_ubuntu .
+  495  which git
+  496  which jq
+  497  history 50  > 23rd
+  465  cat 23rd 
+  466  history
+  467  docker images
+  468  tree
+  469  mv file1 /home/ubuntu/Dockhub/
+  470  mv file1 /home/ubuntu/
+  471  ls
+  472  vi Dockerfile 
+  473  docker build -t my_ubuntu .
+  474  cd ..
+  475  pwd
+  476  ls
+  477  tree
+  478  pwd
+  479  cd Dockhub/
+  480  ls
+  481  vi Dockerfile 
+  482  touch file1
+  483  docker build -t my_ubuntu .
+  484  pwd
+  485  ls
+  486  rm -rf
+  487  vi file1 
+  488  tree
+  489  vi Dockerfile 
+  490  pwd
+  491  tree
+  492  vi Dockerfile 
+  493  docker build -t my_ubuntu .
+  494  vi Dockerfile 
+  495  docker build -t my_ubuntu .
+  496  docker run -it --rm my_ubuntu bin/bash
+  497  vi Dockerfile 
+  498  docker build -t my_ubuntu .
+  499  docker run -it --rm my_ubuntu bin/bash
+  500  vi Dockerfile 
+  501  docker build -t my_ubuntu .
+  502  vi Dockerfile 
+  503  docker build -t my_ubuntu .
+  504  history 120 > 23rda
+  505  cat 23rda
+  506  history 50 >> 23rda
+  507  cat 23rda
+  508  history 50 
+  509  rm -rf 23rda
+  510  touch file1
+  511  history 50 > file1
+  512  rm
+  513  who
+  514  whoami
+  515  uname
+  516  uname -a
+  517  history 5 >> file1
+  518  cat file1
+  519  history 55 >> 23rd
