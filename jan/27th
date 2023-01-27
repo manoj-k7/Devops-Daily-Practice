@@ -1,0 +1,52 @@
+find . -type maxdepth f +30
+find . -type f -name test
+find . -type f -name “t1”
+find . -type f -name “t1”
+find . -type f -empty
+find . -type f “t1”
+find . -type f -user ec2-user
+find . -name test2
+find . -type f +mmin -30
+find . -name f +mmin -30
+find . -name f -mmin -30
+find . -type f -mmin -30 
+ls -ltr
+df -h | find . -type f -mtime +2
+df -h | find . -type f -name +2
+df -h
+du -sh
+df -h | find . -size f  +10
+sudo find / -size f +100
+sudo find / -size  +100
+sudo find . -size  +100 
+find ./ -maxdepth 1 -type f -size -10M
+du -sh
+df -h
+df -h*
+find . -maxdepth 1 -type f -size -10M
+df -h file1
+find . -type f -perm 0777
+find . -type f -empty
+find . -type f -not -empty
+find . -type f -mmin -30
+find . -type f -mtime 1
+find . -type f -mtime +1
+find . -type f -mtime -1
+find . -type f -size +10kb
+find . -type f -size +10k
+find . -perm 0766
+find . \-perm 0766
+ls -ltr | awk -F " " {print(S1)} 
+ls -ltr | awk -F " " {print('S1')} 
+ls -ltr | awk -F " " {'print(S1)'} 
+ls -ltr | awk -F " " {'print(S3)'}
+find . -type f -size +4M
+find . -type f -size +1m
+find . -type f -size +1M
+find /home/ec2-user/dir1/dir2/dir3/dir4 -type f -size +1M
+find /home/ec2-user/dir1/dir2/dir3/dir4 -type f -size +1K
+man size
+cd ~
+find /home/ec2-user/dir1/dir2/dir3/dir4 -type f -size +1K
+find /home/ec2-user/dir1/dir2/dir3/dir4 -type f -size +1M
+find /home/ec2-user/dir1/dir2/dir3/dir4 -type f -size -1M
