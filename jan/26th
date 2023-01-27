@@ -1,0 +1,86 @@
+08  git add f1
+  209  git commit -m " modified f1 "
+  210  git log
+  211  git push https://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@github.com/manoj-k7/test-repo.git
+  212  git push --set-upstream https://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@github.com/manoj-k7/test-repo.git master
+  213  cd ..
+  214  git pull --set-upstream https://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@github.com/manoj-k7/test-repo.git master
+  215  ls
+  216  mkdir Repo2
+  217  cd Repo2
+  218  git pull --set-upstream https://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@github.com/manoj-k7/test-repo.git master
+  219  ls
+  220  git fetch --set-upstream https://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@github.com/manoj-k7/test-repo.git master
+  221  ls
+  222  git branch
+  223  git checkout master
+  224  git log
+  225  cd repo2/
+  226  ls
+  227  git branch
+  228  git checkout branch3
+  229  ls
+  230  git pull https://github.com/manoj-k7/test-repo.git
+  231  ls
+  232  git log
+  233  cd ..
+  234  cd repo1
+  235  git log
+  236   ls -a
+  237  git status
+  238  cd ..
+  239  cd repo2
+  240  ls -a
+  241  git init
+  242  ls -a
+  243  cd ..
+  244  cd repo1
+  245  ls
+  246  git push https://github.com/manoj-k7/test-repo.git
+  247  ls
+  248  cd ..
+  249  cd repo2
+  250  git pull https://github.com/manoj-k7/test-repo.git
+  251  ls
+  252  git branch
+  253  git log
+  254  cd ..
+  255  ls
+  256  cd test-repo/
+  257  ls
+  258  touch f1 f2
+  259  git add *
+  260  git status
+  261  git commit -m "addded new files "
+  262  git push
+  263  vi f1
+  264  git status
+  265  git add f1
+  266  git commit -m "modified f1 file "
+  267  git push
+  268  cd ..
+  269  cd repo2
+  270  ls
+  271  git pull https://github.com/manoj-k7/test-repo.git
+  272  git log
+  273  git push
+  274  cd ..\
+  275  cd ..
+  276  ls
+  277  ls -a
+  278  cd ..
+  279  git clone https://github.com/manoj-k7/test-repo.git my-temp
+  280  git clone --mirror https://github.com/manoj-k7/test-repo.git my-temp1
+  281  cd my-temp1
+  282  ls
+  283  git log
+  284  git branch -a
+  285  git tag
+  286  cd ..
+  287  cd my-temp
+  288  git branch -a
+  289  git remote -v
+  290  cd ../my-temp1
+  291  git remote -v
+  292  git remote rm origin
+  293  git remote -v
