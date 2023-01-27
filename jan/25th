@@ -1,0 +1,63 @@
+ 148  git branch
+  149  mv barnch1 branch
+  150  touch text
+  151  git status
+  152  git add *
+  153  git status
+  154  git committ -m "adding files"
+  155  git status
+  156  git log
+  157  git delete check1
+  158  git tag -d check1
+  159  git log
+  160  git checkout master
+  161  git log
+  162  ls
+  163  git log
+  164  git checkout barnch1
+  165  ls
+  166  git log
+  167  ls
+  168  ls
+  169  git cherry-pick 6a5bfd6fa5575bd3ab2a4922f3ffbcd52f5a7d6f
+  170  git merge text
+  171  git log
+  172  git clone https://github.com/manoj-k7/test-repo.git
+  173  ls
+  174  git branch -b branch3
+  175  git branch
+  176  git checkout -b branch3
+  177  ls
+  178  cd conf
+  179  ls
+  180  ls
+  181  git branch
+  182  mkdir Repo1
+  183  ls
+  184  cd Repo1
+  185  git init
+  186  ls -a
+  187  touch f1 f2 f3
+  188  ls
+  189  git branch branch1
+  190  git branch
+  191  git status
+  192  goit add *
+  193  git add *
+  194  git status
+  195  git commit -m "added files"
+  196  ls
+  197  git log
+  198  git log
+  199  touch m1 m2
+  200  git log
+  201  git branch branch1
+  202  git branch
+  203  git add *
+  204  git commit -m "added new files
+  205  git commit -m "added new files"
+  206  vi f1
+  207  git status
+  208  git add f1
+  209  git commit -m " modified f1 "
+  210  git log
