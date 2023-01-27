@@ -1,0 +1,30 @@
+  454  which docker
+  455  finger user
+  456  uname -a
+  457  uname
+  458  cat proc/meminfo
+  459  cat proc/meminfo/
+  460  cat /proc/meminfo
+  461  cd Dockhub/
+  462  docker images
+  463  cd Dockhub/
+  464  vi Dockerfile 
+  465  docker build -t my_ubuntu .
+  466  docker run -it --rm my_ubuntu 
+  467  docker run -it --rm my_ubuntu ls
+  468  vi Dockerfile 
+  469  docker build -t my_ubuntu .
+  470  docker run -it --rm my_ubuntu 
+  471  vi Dockerfile 
+  472  docker build -t my_ubuntu .
+  473  docker run -it --rm my_ubuntu 
+  474  vi Dockerfile 
+  475  docker build -t my_ubuntu .
+  476  docker run -it --rm my_ubuntu 
+  477  vi Dockerfile 
+  478  docker build -t my_ubuntu .
+  479  docker run -it --rm my_ubuntu 
+  480  vi Dockerfile 
+  481  docker build -t my_ubuntu .
+  482  docker run -it --rm my_ubuntu 
+  483  history 30 > 24th
